@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="language"  content="english" />
+    <meta name="author" content="Harsha Chekuri" />
+    <meta name="description " content="this is rock paper scissor game" />
+    <meta name="keywords" content="html css js javascript" />
+    <meta name="robots" content="index follow" />
+    <meta http-equiv="refresh" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissor - Play with Fun</title>
+    <link rel="icon" type="svg.xml" href="./template/icon.png" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="container-box">
+            <div class="box-head">
+                <h1>Rock Paper Scissor</h1>
+                <img src="./template/title-icon.png" alt="Not Found">
+            </div>
+            <div class="box-scorecard">
+                <h2 id="res">Result: NONE</h2>
+                <div class="box-scorecard-player">
+                    <p id="ply1">Player-1: NONE</p>
+                    <p id="ply2">Player-2: NONE</p>
+                </div>
+                <p id="scr">Score: 0</p>
+            </div>
+            <div class="box-btn">
+                <div class="box-btn-1">
+                    <button onclick="fun1()"><img src="./template/rock.png" alt="not found" title="Rock"></button>
+                    <button onclick="fun2()"><img src="./template/paper.png" alt="not found" title="Paper"></button>
+                    <button onclick="fun3()"><img src="./template/scissor.png" alt="not found" title="Scissor"></button>
+                </div>
+                <div class="box-btn-2">
+                    <button onclick="fun4()">Reset Scorecard</button>
+                </div>
+            </div>            
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>

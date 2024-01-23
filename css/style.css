@@ -1,0 +1,198 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    /* font-family: 'Exo 2', sans-serif; */
+    font-family: 'Grape Nuts', cursive;
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../template/bg.png");
+    background-position:center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-box{
+    height: fit-content;
+    width: 70%;
+    background: linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.1));
+    border-radius: 20px;
+}
+.box-head{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: auto;
+}
+.box-head h1{
+    font-size: 45px;
+}
+.box-head img{
+    height: px;
+    padding-top: 10px;
+    cursor: not-allowed;
+}
+.box-scorecard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px ;
+}
+.box-scorecard-player{
+    display: flex;
+    align-items: center;
+    padding: 10px ;
+    gap: 150px;
+    justify-content: space-between; 
+}
+.box-scorecard p{
+    font-size: 20px;
+}
+.box-btn{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px 30px 50px;
+
+}
+.box-btn-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box-btn-1 button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.box-btn-1 img{
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+    border-radius: 100px;
+    padding: 20px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: aliceblue;
+}
+.box-btn-1 img:hover{
+    background-color: transparent;
+    border: 2px solid greenyellow;
+}
+.box-btn-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.box-btn-2 button{
+    border: none;
+    outline: none;
+    background: none;
+    color: aliceblue;
+    font-size: 20px;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px 40px;
+    height: px;
+    width: px;
+    cursor: pointer;
+}
+.box-btn-2 button:hover{
+    background-color: rgb(63, 63, 63);
+}
+@media only screen and (max-width:640px){
+    .container-box{
+        height: fit-content;
+        width: 90%;
+        background: linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.1));
+        border-radius: 20px;
+    }
+    .box-head h1{
+        font-size: 25px;
+    }
+    .box-head img{
+        height: 70px;
+        padding-top: 10px;
+        cursor: not-allowed;
+    }
+    .box-scorecard{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;
+        padding: 30px ;
+    }
+    .box-scorecard-player{
+        display: flex;
+        align-items: center;
+        padding: 10px ;
+        gap: 50px;
+        justify-content:space-between ; 
+    }
+    .box-scorecard p{
+        font-size: 18px;
+    }
+    .box-btn{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 30px 30px 50px;
+    
+    }
+    .box-btn-1{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .box-btn-1 img{
+        height: 80px;
+        width: 80px;
+        border: 2px solid red;
+        border-radius: 100px;
+        padding: 10px;
+        margin: 5px;
+        cursor: pointer;
+        background-color: aliceblue;
+    }
+    .box-btn-1 img:hover{
+        background-color: transparent;
+        border: 2px solid greenyellow;
+    }
+    .box-btn-2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .box-btn-2 button{
+        border: none;
+        outline: none;
+        background: none;
+        color: aliceblue;
+        font-size: 20px;
+        background-color: black;
+        border-radius: 10px;
+        padding: 10px 40px;
+        height: px;
+        width: px;
+        cursor: pointer;
+    }
+    .box-btn-2 button:hover{
+        background-color: rgb(63, 63, 63);
+    }
+}
